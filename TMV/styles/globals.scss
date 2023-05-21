@@ -4,7 +4,7 @@
 
 :root {
   --font-family-heading: 'Quicksand', sans-serif;
-  --font-family-paragraph: Helvetica, sans-serif;
+  --font-family-paragraph: 'Quicksand', sans-serif;
   --font-family-monospace: monospace;
   --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
   --base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};

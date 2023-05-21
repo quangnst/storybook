@@ -3,7 +3,9 @@ import Link from "next/link";
 export const Nav = () => {
   return (
     <div className="header">
-      <a className="header-logo" href="#">StoryBook</a>
+      <Link href="/" className="header-logo">
+        StoryBook
+      </Link>
       <div className="menu-main">
         <ul>
           <li>
